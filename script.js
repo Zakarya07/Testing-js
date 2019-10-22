@@ -39,10 +39,6 @@ function auth() {
     if (currentUser == 'Admin' || currentUser == userAccount) {
         let password = prompt('Passsord ?', '');
 
-     
-        
-
-
 
         if (password == 'The Master' || password == passswordInitialize) {
             alert(`Welcome ${currentUser} :), you have been registred succesfully`);
