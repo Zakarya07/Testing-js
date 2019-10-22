@@ -40,7 +40,7 @@ function auth() {
         let password = prompt('Passsord ?', '');
 
 
-        if (password == 'The Master' || password == passswordInitialize) {
+        if (password == passswordInitialize) {
             alert(`Welcome ${currentUser} :), you have been registred succesfully`);
         } else if (password == null || password == '') {
             alert(`Canceled`);
